@@ -1,0 +1,4 @@
+.venv
+.env
+generate_license.py
+cbt.sqlite3
