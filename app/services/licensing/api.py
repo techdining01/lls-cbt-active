@@ -380,3 +380,5 @@ async def register_license(
     except Exception as e:
         db.rollback()
         raise HTTPException(status_code=500, detail=f"Registration failed: {str(e)}")
+
+
